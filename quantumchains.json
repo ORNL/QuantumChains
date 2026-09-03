@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "measurementType": {
+    "method": "projects"
+  },
+  "agency": "DOE",
+  "releases": [
+    {
+      "name": "Quantum Chains",
+      "version": "1.0",
+      "organization": "Oak Ridge National Laboratory",
+      "description": "This code calculates the number of most likely physical error configurations that result in a logical error, for any code distance, independent of the physical error rate. With a given physical error rate, it can be used to design quantum computers for fault tolerance.",
+      "permissions": {
+        "licenses": [
+          {
+            "URL": "https://github.com/ORNL/QuantumChains/blob/main/LICENSE",
+            "name": "UT-Battelle Open Source License"
+          }
+        ],
+        "usageType": "openSource",
+        "exemptionText": null
+      },
+      "tags": [
+        "code distance",
+        "combinatorics",
+        "quantum error correction",
+        "path counting",
+        "surface code",
+        "rotated code"
+      ],
+      "contact": {
+        "email": "regevs@ornl.gov",
+        "name": "Shaked Regev"
+      },
+      "status": "Research",
+      "repositoryURL": "https://github.com/ORNL/QuantumChains",
+      "laborHours": 150,
+      "disclaimerText": "UT-BATTELLE, LLC, BATTELLE MEMORIAL INSTITUTE, AND THE GOVERNMENT MAKE NO REPRESENTATIONS AND DISCLAIM ALL WARRANTIES, BOTH EXPRESSED AND IMPLIED. THERE ARE NO EXPRESS OR IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OR THAT THE USE OF THE SOFTWARE WILL NOT INFRINGE ANY PATENT, COPYRIGHT, TRADEMARK, OR OTHER PROPRIETARY RIGHTS, OR THAT THE SOFTWARE WILL ACCOMPLISH THE INTENDED RESULTS OR THAT THE SOFTWARE OR ITS USE WILL NOT RESULT IN INJURY OR DAMAGE. THE USER ASSUMES RESPONSIBILITY FOR ALL LIABILITIES, PENALTIES, FINES, CLAIMS, CAUSES OF ACTION, AND COSTS AND EXPENSES, CAUSED BY, RESULTING FROM OR ARISING OUT OF, IN WHOLE OR IN PART THE USE, STORAGE OR DISPOSAL OF THE SOFTWARE.",
+      "languages": ["C++", "Julia", "Python"],
+      "date": {
+        "created": "2025-08-26",
+        "lastModified": "2026-03-27",
+        "metadataLastUpdated": "2026-03-27"
+      }
+    }
+  ]
+}
