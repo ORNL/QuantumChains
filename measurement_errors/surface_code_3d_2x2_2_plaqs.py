@@ -2,7 +2,8 @@
 #2x2x2 (2+1)D rotated surface code. Counting data and measurement error configurations over the weight-2 ancilla qubits.
 
 '''For each syndrome configuration, this script outputs a matrix where the (i,j) entry tells us
-how many possible error configurations have a number of i data errors and j measurement errors'''
+how many possible error configurations have a number of i data errors and j measurement errors. These matrices are saved
+to the file 'measurement_data_matrix_2x2x2.txt' '''
 
 '''The number of data errors are only counted as NEW occurances of a data error, due to how they persist in time.
 So if a given data qubit has an unchanging data error across subsequent measurements, that would be counted as one data error. 
@@ -17,7 +18,7 @@ M = 2 #total measurement layers
 total_ancillas = 4
 syndrome_combos = product(range(2), repeat=4)
 data_error_combos = product(range(2), repeat=2)
-file = open("activity_log.txt", "w")
+file = open("measurement_data_matrix_2x2x2.txt", "w")
 
 ancilla_list1 = []
 i=0
