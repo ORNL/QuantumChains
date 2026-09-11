@@ -1,4 +1,4 @@
-# logical_errors_rotated_surface_codes
+# QuantumChains
 
 ## Getting started
 
