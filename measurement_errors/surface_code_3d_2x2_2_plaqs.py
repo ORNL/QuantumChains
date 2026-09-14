@@ -3,7 +3,7 @@
 
 '''For each syndrome configuration, this script outputs a matrix where the (i,j) entry tells us
 how many possible error configurations have a number of i data errors and j measurement errors. These matrices are saved
-to the file 'measurement_data_matrix_2x2x2.txt' '''
+to the file 'measurement_data_matrix_2x2x2.txt'. '''
 
 '''The number of data errors are only counted as NEW occurances of a data error, due to how they persist in time.
 So if a given data qubit has an unchanging data error across subsequent measurements, that would be counted as one data error. 
