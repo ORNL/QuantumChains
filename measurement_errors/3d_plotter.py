@@ -126,7 +126,7 @@ syndrome3 = [(x + y + z) % 2 for x, y, z in zip(syndrome2_data_only, syndrome3, 
 
 syndrome = [syndrome1, syndrome2, syndrome3]
 
-syndrome_non_trivial = [syndrome[0],[(syndrome[1][i] + syndrome[0][i]) % 2 for i in range(len(syndrome))],[(syndrome[2][i] + syndrome[1][i]) % 2 for i in range(len(syndrome))]]
+syndrome_non_trivial = [syndrome[0],[(syndrome[1][i] + syndrome[0][i]) % 2 for i in range(4)],[(syndrome[2][i] + syndrome[1][i]) % 2 for i in range(4)]]
 syndrome = syndrome_non_trivial
 
 for layer in range(len(syndrome)): #Plot syndrome measurements. Only turn red when the ancilla changes parity
